@@ -4,7 +4,7 @@ on:
   push : # 2. ¿Qué evento(s) quieres usar para disparar este workflow? (añade mínimo 2)
         #    Piensa en cuándo quieres que se ejecute (push, pull_request, manualmente...).
         ##??? : # 2b. (Opcional) ¿Quieres restringirlo a alguna rama específica?
-      - main
+        #- main
 
 jobs:
   imprimir_info:  # No cambies este nombre, lo usaremos para evaluar
