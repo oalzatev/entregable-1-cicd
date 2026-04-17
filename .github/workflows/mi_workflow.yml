@@ -23,7 +23,7 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v3
         with:
-          python-version: 3.12 # 6. Elige una versión de Python (ej: '3.8', '3.9', '3.10', '3.11', '3.12').
+          python-version: '3.12' # 6. Elige una versión de Python (ej: '3.8', '3.9', '3.10', '3.11', '3.12').
 
       - name: Ejecutar script Python
         run: python <mi_script.py> #7. Completa para ejecutar el script de python. Pista: python <Nombre>
