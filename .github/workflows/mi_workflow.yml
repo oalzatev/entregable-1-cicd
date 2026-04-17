@@ -3,8 +3,8 @@ name: Aprendiendo_WorkFlows  # 1. Dale un nombre descriptivo a tu workflow
 on:
   push : # 2. ¿Qué evento(s) quieres usar para disparar este workflow? (añade mínimo 2)
         #    Piensa en cuándo quieres que se ejecute (push, pull_request, manualmente...).
-    branches:    ##??? : # 2b. (Opcional) ¿Quieres restringirlo a alguna rama específica?
-      - main
+    #branches:    ##??? : # 2b. (Opcional) ¿Quieres restringirlo a alguna rama específica?
+      #- main
 
 jobs:
   imprimir_info:  # No cambies este nombre, lo usaremos para evaluar
